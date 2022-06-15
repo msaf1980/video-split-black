@@ -1,0 +1,86 @@
+# Executables name, if in a root dir
+#programm
+
+# Build dir
+_*
+bin
+lib
+target
+build
+
+### Vim
+.*.swp
+.*.swo
+### VS Code
+.vscode
+########################
+### C
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.so
+*.so.*
+
+########################
+#Autotools
+Makefile.in
+aclocal.m4
+configure
+
+########################
+### Cmake
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+Makefile
+
+cotire
+*_cotire.cmake
+
+*_pch_dephelp.cxx
+
+########################
+conanbuild*
+conaninfo.txt
+graph_info.json
+
+########################
+compile_commands.json
+*.plist
+.clangd
+########################
+### Tags
+tags
+
+# GNU Global
+GPATH
+GRTAGS
+GTAGS
+gtags.files
+########################

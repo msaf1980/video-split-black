@@ -1,0 +1,10 @@
+# We'll use defaults from the LLVM style, but with 4 columns indentation.
+BasedOnStyle: LLVM
+SpaceAfterCStyleCast: true
+AlwaysBreakTemplateDeclarations: true
+AlignConsecutiveDeclarations: true
+IndentWidth: 4
+TabWidth: 4
+UseTab: ForIndentation
+#UseTab: ForContinuationAndIndentation
+#UseTab: Always
